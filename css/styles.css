@@ -41,7 +41,6 @@ a {
 }
 
 img {
-    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -52,10 +51,6 @@ button {
 }
 
 /* ==================== HEADER ==================== */
-.header {
-    border-bottom: 1px solid #E7E9FC;
-}
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -96,8 +91,6 @@ button {
 /* ==================== HERO ==================== */
 .hero {
     background-color: var(--dark);
-    padding: 188px 0;
-    text-align: center;
 }
 
 .hero-title {
@@ -105,6 +98,7 @@ button {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white-background);
+    text-align: center;
 }
 
 .hero-button {
@@ -114,9 +108,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 16px 32px;
     border: none;
-    border-radius: 4px;
 }
 
 .hero-button:hover,
